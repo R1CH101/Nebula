@@ -6,7 +6,7 @@ import {
     type SWPagePlugin,
     type SWPlugin
 } from "./marketplace/types";
-const wispUrl = (location.protocol === "https:" ? "wss://" : "ws://") + location.host + "/wisp/";
+const wispUrl = (location.protocol === "https:" ? "wss://" : "ws://") + "iproxy.apps.lilleycloud.com/wisp/";
 type TabCloaks = "default" | "google" | "wikipedia" | "canvas" | "classroom" | "powerschool";
 type AbCloaks = "a:b" | "blob";
 type OpenIn = "a:b" | "blob" | "direct" | "embed";
