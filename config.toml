@@ -12,5 +12,5 @@ postgres = false # Enable to use postgres over sqlite (recommended for large pro
 
 [server.server]
 port = 8080
-wisp = false
+wisp = true
 logging = false # Disable for the tons & tons of logs to go away (useful for debugging but otherwise eh)
